@@ -53,3 +53,10 @@ Subir los cambios al *remote* (server)
     
 - `git push` por default sube los cambios de nuestro branch al *upstream* branch, la cual es la branch default para sincronizar cambios.
 
+Subir cambios 
+
+Si cambiamos la branch upstream, podremos pushear nuestros cambios sin especificar a que rama todo el tiempo
+
+```
+git push -u origin <branch>
+```
